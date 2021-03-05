@@ -89,3 +89,12 @@ The following preferences need to be set to keep the project consistent. You nee
 1. Type <code>exec:exec@debug-development-server</code> into *Command line* and save the configuration
 1. In the same dialog, create new "Remote" debug configuration, using *localhost* and *Port 5005*
 1. Start both configurations and open URL [http://localhost:8888/run/&lt;testUI&gt;](http://localhost:8888/run/<testUI>)
+
+## How to make a change in the code
+
+Use branch 7.7.17-merge
+
+## How to generate the jar
+
+Use maven install for the corresponding project (ex: vaadin-server)
+
